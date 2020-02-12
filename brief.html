@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <!-- Created by Simrit -->
+    <title> Client Home </title>
+    <link rel="icon" href="/~snijjar/images/favicon.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=width-device, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="../css/style.css">
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+		<!-- Bootstrap CDN -->
+
+    <!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+		<!-- Popper JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- END Bootstrap CDN -->
+
+		<link type="text/css" rel="stylesheet" href="../css/bootstrap-exceptions.css">
+
+  </head>
+
+  <body>
+
+    <header class="container-fluid">
+
+      <!--Navigation bar-->
+			<div id="nav-placeholder">
+
+			</div>
+
+			<script>
+			$(function(){
+			  $("#nav-placeholder").load("../js/nav.html");
+			});
+			</script>
+			<!--end of Navigation bar-->
+
+      <div class="jumbotron">
+
+        <h1 class="display-3 center"> Brief </h1>
+
+      </div>
+
+    </header>
+
+    <main class="container">
+
+      <div class="row">
+
+        <!-- Check List -->
+
+        <div class="col-12">
+
+          <h1> Progress </h1>
+
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="customCheck1" disabled>
+            <label class="custom-control-label" for="customCheck1">Comply with Copyright and Fair Use rules</label>
+          </div>
+
+          <div class="custom-control custom-checkbox col-12">
+            <input type="checkbox" class="custom-control-input" id="customCheck2" disabled>
+            <label class="custom-control-label" for="customCheck2">Minimum <span class="text-info">5</span> pages</label>
+          </div>
+
+          <div class="custom-control custom-checkbox col-12">
+            <input type="checkbox" class="custom-control-input" id="customCheck3" disabled>
+            <label class="custom-control-label" for="customCheck3">Responsive Design with images having at least <span class="text-info">2</span> break points</label>
+          </div>
+
+          <div class="custom-control custom-checkbox col-12">
+            <input type="checkbox" class="custom-control-input enabled" id="customCheck4" disabled>
+            <label class="custom-control-label" for="customCheck4">Pseudo classes for interactive nav and links</label>
+          </div>
+
+          <div class="custom-control custom-checkbox col-12">
+            <input type="checkbox" class="custom-control-input" id="customCheck5" disabled>
+            <label class="custom-control-label" for="customCheck5">Appropriate Colours and Typography for target audience</label>
+          </div>
+
+          <div class="custom-control custom-checkbox col-12">
+            <input type="checkbox" class="custom-control-input" id="customCheck6" checked disabled>
+            <label class="custom-control-label" for="customCheck6">Smart Goal for <span class="text-info">Content</span></label>
+          </div>
+
+          <div class="custom-control custom-checkbox col-12">
+            <input type="checkbox" class="custom-control-input" id="customCheck7" checked disabled>
+            <label class="custom-control-label" for="customCheck7">Smart Goal for <span class="text-info">Design</span></label>
+          </div>
+
+          <div class="custom-control custom-checkbox col-12">
+            <input type="checkbox" class="custom-control-input" id="customCheck8" checked disabled>
+            <label class="custom-control-label" for="customCheck8">Smart Goal for <span class="text-info">Coding</span></label>
+          </div>
+
+          <br>
+
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 37%;" aria-valuenow="37" aria-valuemin="0" aria-valuemax="100">37%</div>
+          </div>
+
+        </div>
+
+        <!-- END Check List -->
+
+        <p><br></p>
+
+        <!-- Brief -->
+
+        <div id="accordion" class="col-12">
+
+          <!-- Demographic -->
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-outline-primary btn-block" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Demographic
+                </button>
+              </h5>
+            </div>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body">
+                <ul class="list-group">
+                  <li class="list-group-item"> <u>Age:</u> 20-35 </li>
+                  <li class="list-group-item"> <u>Gender:</u> Female </li>
+                  <li class="list-group-item"> <u>Income:</u> Enough for Lavish spending </li>
+                  <li class="list-group-item"> <u>Culture:</u> South Asian </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Geographic -->
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-outline-primary btn-block collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Geographic
+                </button>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+              <div class="card-body">
+                <ul class="list-group">
+                  <li class="list-group-item"> <u>Location:</u> First World Countries </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Psychographic -->
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-outline-primary btn-block collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Psychographic
+                </button>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body">
+
+                <ul class="list-group">
+
+                  <li class="list-group-item">
+                    <u> <span class="text-info">3</span> Interests/Activities:</u>
+                    <ul class="list-group">
+                      <li class="list-group-item"> Indian Events </li>
+                      <li class="list-group-item"> Fashion </li>
+                      <li class="list-group-item"> Dresses </li>
+                    </ul>
+                  </li>
+
+                  <li class="list-group-item">
+                    <u> <span class="text-info">3</span> Likes/Preferences:</u>
+                    <ul class="list-group">
+                      <li class="list-group-item"> Bollywood </li>
+                      <li class="list-group-item"> Weddings </li>
+                      <li class="list-group-item"> Models </li>
+                    </ul>
+                  </li>
+
+                </ul>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- Buying Behaviour -->
+          <div class="card">
+            <div class="card-header" id="headingFour">
+              <h5 class="mb-0">
+                <button class="btn btn-outline-primary btn-block collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Buying Behaviour
+                </button>
+              </h5>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+              <div class="card-body">
+                <ul class="list-group">
+                  <li class="list-group-item"> Dresses </li>
+                  <li class="list-group-item"> Suits </li>
+                  <li class="list-group-item"> Jewelry </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Competition -->
+          <div class="card">
+            <div class="card-header" id="headingFive">
+              <h5 class="mb-0">
+                <button class="btn btn-outline-primary btn-block collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  Competition
+                </button>
+              </h5>
+            </div>
+            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+              <div class="card-body">
+
+                <ul class="list-group">
+
+                  <li class="list-group-item"> <a href="http://bombaycouture.ca" target="_blank"> <b>Bombay Couture</b> </a>
+                    <ul class="list-group">
+                      <li class="list-group-item"> <span class="text-success">Strengths:</span> Built in Store, Splash Page with clear navigation to start, Interactive elements, well integrated social media, High Quality Images</li>
+                      <li class="list-group-item"> <span class="text-danger">Weaknesses:</span> Contact Page Google Maps Not Working </li>
+                    </ul>
+                  </li>
+
+                  <li class="list-group-item"> <a href="http://bombaycouture.ca" target="_blank"> <b>Well Groomed Designs</b> </a>
+                    <ul class="list-group">
+                      <li class="list-group-item"> <span class="text-success">Strengths:</span> Consistant High Quality Images, well thought-out color scheme </li>
+                      <li class="list-group-item"> <span class="text-danger">Weaknesses:</span> Small Font on Mobile, Quantity selector error </li>
+                    </ul>
+                  </li>
+
+                </ul>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- Purpose And Goals -->
+          <div class="card">
+            <div class="card-header" id="headingSix">
+              <h5 class="mb-0">
+                <button class="btn btn-outline-primary btn-block collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                  Purpose and Goals
+                </button>
+              </h5>
+            </div>
+            <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+              <div class="card-body">
+                <ul class="list-group">
+                  <li class="list-group-item"> <u>Describe Final Project:</u> My final project is a portfolio/shop-like site for Indian dresses. This is a site specifically made for my Aunt, who is the designer and owner for these suits. </li>
+                  <li class="list-group-item"> <u>Purpose of Site for Client:</u> Display Product Examples and Designs to convince user to purchase from vendor.</li>
+                  <li class="list-group-item"> <u>Purpose of Site for User:</u> View Fashionable designs and dresses of Indian origin and decide to purchase from the vendor. </li>
+                  <li class="list-group-item"> <u>Smart Goal for <span class="text-info">Content</span>:</u> A slideshow with multiple images to display different views of item. </li>
+                  <li class="list-group-item"> <u>Smart Goal for <span class="text-info">Design</span>:</u> Alternating side-by-side Image and text layout with fade-in elements on scroll.</li>
+                  <li class="list-group-item"> <u>Smart Goal for <span class="text-info">Coding</span>:</u> A working slideshow that can be controlled by the arrow keys on your keyboard and by controls on the screen itself. </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project POV -->
+          <div class="card">
+            <div class="card-header" id="headingSeven">
+              <h5 class="mb-0">
+                <button class="btn btn-outline-primary btn-block collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                  Project POV
+                </button>
+              </h5>
+            </div>
+            <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+              <div class="card-body">
+                <ul class="list-group">
+                  <li class="list-group-item"> This site will attempt to appeal to (summarize your target audience) adult women who have a lavish taste for design by (how the site will attempt to appeal) having an elegant look with well thought out typography and design layout. </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- End Brief -->
+
+      </div>
+
+    </main>
+
+    <footer class="container-fluid">
+
+      <div class="row">
+
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+          <ul class="footer-sec">
+            <li> <h3> Personal </h3> </li>
+            <li> &copy;<i>Simrit</i>, 2019 </li>
+            <li> <a href="mailto:simritnijjar@protonmail.com" class="link">simritnijjar@protonmail.com</a> </li>
+          </ul>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+          <ul class="footer-sec">
+            <li> <h3> Client </h3> </li>
+            <li> &copy;Simar, 2019 </li>
+            <li> Punjabi Designer Boutique </li>
+            <li> <a href="tel:6048251957" target="_blank" class="link"> (604) 825-1957 </a> </li>
+            <li> <a href="mailto:punjabidesignerboutique@hotmail.com" target="_blank" class="link"> punjabidesignerboutique@hotmail.com </a> </li>
+          </ul>
+        </div>
+
+      </div>
+
+    </footer>
+
+  </body>
+
+</html>

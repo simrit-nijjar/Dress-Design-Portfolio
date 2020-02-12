@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300&display=swap');
+
+.card {
+  margin: 2em;;
+  padding-top: 1em;
+  height: 40em;
+  position: relative;
+
+}
+
+.card-text {
+  text-align: justify;
+  font-family: 'Roboto', sans-serif;
+}
+
+.card .btn {
+  position: absolute;
+  bottom: 2.5%;;
+  left: 5%;
+  width: 90%;
+  cursor: pointer;
+}
+
+.carousel img {
+  height: 40em;
+  width: auto;
+}
+
+.showcase {
+  padding-top: 1em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  max-height: 100vh;
+  background-color: rgba(0,0,0, 0.8) ;
+  color: white;
+  z-index: 1;
+}
+
+.showcase p {
+  margin: 0 1em;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*    --------------------    BS Extra Small    --------------------    */
+
+@media screen and (max-width: 768px) {
+
+  .showcase {
+    height: 125%;
+  }
+
+  .showcase img {
+    height: 80%;
+  }
+  
+}
+
+
+/*    --------------------    BS Small    --------------------    */
+
+@media screen and (min-width: 768px) {
+
+  .showcase {
+    height: 110%;
+  }
+
+  .showcase img {
+    height: 80%;
+  }
+
+
+}
+
+/*    --------------------    BS Medium    --------------------    */
+
+@media screen and (min-width: 991px) {
+
+
+}
+
+/*    --------------------    BS Large    --------------------    */
+
+@media screen and (min-width: 1200px) {
+
+
+
+}
