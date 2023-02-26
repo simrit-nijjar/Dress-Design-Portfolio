@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
 
     <title> Contact </title>
     <link rel="icon" href="/~snijjar/images/favicon.ico" type="image/x-icon">
@@ -12,10 +12,11 @@
     <link rel="stylesheet" type="text/css" href="css/master.css">
 
     <!-- JavaScript -->
-		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
     <!-- Bootstrap -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!-- AOS Library -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -23,119 +24,127 @@
     <!-- Font Awesome CDN -->
     <script src="https://kit.fontawesome.com/ac4ef374f7.js"></script>
 
-  </head>
+</head>
 
-  <body>
+<body class="contact">
 
     <header>
 
-      <!--Navigation bar-->
-			<div id="header-placeholder">
+        <!--Navigation bar-->
+        <div id="header-placeholder">
 
-			</div>
+        </div>
 
-			<script>
-  			$(function(){
-  			  $("#header-placeholder").load("js-elements/header.html");
-  			});
-			</script>
-			<!--end of Navigation bar-->
+        <script>
+            $(function () {
+                $("#header-placeholder").load("js-elements/header.html");
+            });
+        </script>
+        <!--end of Navigation bar-->
 
     </header>
 
     <nav class="sticky-top">
 
-      <!--Navigation bar-->
-      <div id="nav-placeholder">
+        <!--Navigation bar-->
+        <div id="nav-placeholder">
 
-      </div>
+        </div>
 
-      <script>
-        $(function(){
-          $("#nav-placeholder").load("js-elements/nav.html");
-        });
-      </script>
-      <!--end of Navigation bar-->
+        <script>
+            $(function () {
+                $("#nav-placeholder").load("js-elements/nav.html");
+            });
+        </script>
+        <!--end of Navigation bar-->
 
     </nav>
 
     <main>
 
-      <form action="mailto:Punjabidesignerboutique@hotmail.com?subject=Punjabi%20Designer%20Boutique%20Inquiry" method="post" enctype="text/plain" target="_blank">
+        <form action="mailto:*" method="post" enctype="text/plain" target="_blank">
 
-        <div class="form-row">
+            <div class="form-row">
 
-          <div class="col-md-6 col-sm-12 form-group">
-            <label for="first-name">First Name</label>
-            <input type="text" name="first-name" class="form-control" id="first-name" placeholder="John" required>
-          </div>
+                <div class="col-md-6 col-sm-12 form-group">
+                    <label for="first-name">First Name</label>
+                    <input type="text" name="first-name" class="form-control" id="first-name" placeholder="John"
+                        required>
+                </div>
 
-          <div class="col-md-6 col-sm-12 form-group">
-            <label for="first-name">Last Name</label>
-            <input type="text" name="last-name" class="form-control" id="last-name" placeholder="Smith" required>
-          </div>
+                <div class="col-md-6 col-sm-12 form-group">
+                    <label for="first-name">Last Name</label>
+                    <input type="text" name="last-name" class="form-control" id="last-name" placeholder="Smith"
+                        required>
+                </div>
 
-        </div>
+            </div>
 
-        <div class="form-row">
+            <div class="form-row">
 
-          <div class="col-md-6 col-sm-12 form-group">
-            <label for="email">Email address</label>
-            <input type="email" name="email-address" class="form-control" id="email" placeholder="name@example.com" required>
-          </div>
+                <div class="col-md-6 col-sm-12 form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" name="email-address" class="form-control" id="email"
+                        placeholder="name@example.com" required>
+                </div>
 
-          <div class="col-md-6 col-sm-12 form-group">
-            <label for="phone">Phone Number</label>
-            <input type="tel" name="phone" class="form-control" id="phone" placeholder="(123) 456-7890">
-          </div>
+                <div class="col-md-6 col-sm-12 form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" name="phone" class="form-control" id="phone" placeholder="(123) 456-7890">
+                </div>
 
-        </div>
+            </div>
 
-        <div class="form-group">
-          <label for="inquiry">Inquiry</label>
-          <select name="inquiry" class="custom-select" id="inquiry">
-            <option value="Please Write Purpose of Inquiry"></option>
-            <option value="Order Inquiry">Order Inquiry</option>
-            <option value="Design Inquiry">Design Inquiry</option>
-            <option value="Other">Other</option>
-          </select>
-        </div>
+            <div class="form-group">
+                <label for="inquiry">Inquiry</label>
+                <select name="inquiry" class="custom-select" id="inquiry">
+                    <option value="Please Write Purpose of Inquiry"></option>
+                    <option value="Order Inquiry">Order Inquiry</option>
+                    <option value="Design Inquiry">Design Inquiry</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
 
-        <div class="form-group">
-          <label for="message">Message</label>
-          <textarea name="message" class="form-control" id="message" rows="5" placeholder="Type something here" required></textarea>
-        </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea name="message" class="form-control" id="message" rows="5" placeholder="Type something here"
+                    required></textarea>
+            </div>
 
-        <button type="submit" class="btn btn-primary" target="_blank">Submit</button>
+            <button type="submit" class="btn btn-primary" target="_blank">Submit</button>
 
-      </form>
+        </form>
 
     </main>
 
     <footer>
 
-      <!-- Footer bar -->
-      <div id="footer-placeholder">
+        <!-- Footer bar -->
+        <div id="footer-placeholder">
 
-      </div>
+        </div>
 
-      <script>
-        $(function(){
-          $("#footer-placeholder").load("js-elements/footer.html");
-        });
-      </script>
-      <!-- End of Footer bar -->
+        <script>
+            $(function () {
+                $("#footer-placeholder").load("js-elements/footer.html");
+            });
+        </script>
+        <!-- End of Footer bar -->
 
     </footer>
 
     <!--Bootstrap-->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
+        integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o"
+        crossorigin="anonymous"></script>
 
     <!-- AOS Library -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script> AOS.init(); </script>
 
-  </body>
+</body>
 
 </html>
